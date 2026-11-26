@@ -1,0 +1,9 @@
+﻿case_id,test_score,course_completion,task_completed,study_time,expected_route,risk_score,route,predicted,correct,reason
+S01,94,90,true,210,monitor,5.9,monitor,monitor,True,
+S02,45,48,false,60,priority,62.2,priority,priority,True,
+S03,50,60,false,80,review,55.0,review,review,True,
+S04,50,40,true,120,review,45.0,review,review,True,
+S05,50,50,false,50,priority,60.0,priority,priority,True,
+S06,75,66,true,0,monitor,31.9,monitor,monitor,True,
+S07,,56,false,80,unavailable,,unavailable,unavailable,True,test_score: відсутнє значення
+S08,150,45,false,80,unavailable,,unavailable,unavailable,True,test_score: поза допустимим діапазоном

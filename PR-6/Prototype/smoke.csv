@@ -1,0 +1,9 @@
+case_id,test_score,course_completion,task_completed,study_time,expected_route
+S01,94,90,true,210,monitor
+S02,45,48,false,60,priority
+S03,50,60,false,80,review
+S04,50,40,true,120,review
+S05,50,50,false,50,priority
+S06,75,66,true,0,monitor
+S07,,56,false,80,unavailable
+S08,150,45,false,80,unavailable
