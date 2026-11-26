@@ -1,0 +1,19 @@
+﻿case_id,test_score,course_completion,task_completed,study_time,expected,context,risk_score,route,predicted,correct,reason
+E01,36,30,false,40,risk,Накопичені прогалини і нездані роботи,73.1,priority,risk,True,
+E02,20,25,false,70,risk,Пропущені контрольні завдання,79.75,priority,risk,True,
+E03,49,51,false,90,risk,Складнощі з базовими темами,58.05,review,risk,True,
+E04,57,45,false,100,risk,Прогалини підтвердилися пізніше,56.45,review,risk,True,
+E05,61,58,false,120,risk,Навчальна підтримка була потрібна,49.3,review,risk,True,
+E06,39,40,false,30,risk,Слабкий прогрес зберігся,68.9,priority,risk,True,
+E07,87,80,true,220,no_risk,Стабільне виконання вимог,12.2,monitor,no_risk,True,
+E08,79,68,true,175,no_risk,Курс завершено успішно,20.85,monitor,no_risk,True,
+E09,71,60,true,90,no_risk,Курс завершено успішно,31.1,monitor,no_risk,True,
+E10,68,55,true,80,no_risk,Після зрізу темп стабільний,34.55,monitor,no_risk,True,
+E11,66,49,true,100,no_risk,Подальші контрольні пройдено,36.45,monitor,no_risk,True,
+E12,35,30,false,25,no_risk,Імпорт офлайн-активності затримався,74.25,priority,risk,False,
+E13,55,53,false,110,no_risk,Викладач погодив перенесення дедлайну,53.95,review,risk,False,
+E14,90,78,true,140,risk,Після зрізу студент припинив активність,14.7,monitor,no_risk,False,
+E15,88,31,true,80,risk,Складності стосувалися інших тем,34.95,monitor,no_risk,False,
+E16,62,74,true,150,risk,Навчальний темп різко впав після зрізу,26.8,monitor,no_risk,False,
+E17,,48,false,75,unavailable,Відсутній результат тесту,,unavailable,unavailable,True,test_score: відсутнє значення
+E18,55,48,true,-10,unavailable,Помилковий від’ємний час,,unavailable,unavailable,True,study_time: поза допустимим діапазоном
